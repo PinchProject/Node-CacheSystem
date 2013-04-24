@@ -1,0 +1,22 @@
+{
+    "name": "node-cache-system",
+    "description": "Cache system for node.js that use in-memory or redis server",
+    "version": "0.1.0",
+    "author": "Ismael Gorissen <ismael.gorissen@pinchproject.com>",
+    "dependencies": {
+        "redis": "0.8.x",
+        "debug": "0.7.X"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PinchProject/Node-CacheSystem.git"
+    },
+    "bugs": {
+        "url": "https://github.com/PinchProject/Node-CacheSystem/issues"
+    },
+    "main": "./lib/index",
+    "directories": {
+        "lib": "./lib"
+    },
+    "keywords": ["cache", "caching", "redis", "memory"]
+}
