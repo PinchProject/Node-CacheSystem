@@ -1,6 +1,6 @@
 {
     "name": "node-cache-system",
-    "description": "Cache system for node.js that use memory or redis server",
+    "description": "Cache system for node.js that use in-memory or redis server",
     "version": "0.1.0",
     "author": "Ismael Gorissen <ismael.gorissen@pinchproject.com>",
     "dependencies": {

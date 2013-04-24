@@ -2,6 +2,8 @@
  * Author: Ismael Gorissen
  * Date: 24/04/13 13:24
  * Company: PinchProject
+ *
+ * Copyright (C) 2013 PinchProject
  */
 
 var CacheSys = require('../lib');
