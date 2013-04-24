@@ -9,10 +9,10 @@
     },
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/PinchProject/Node-CacheSystem.git"
     },
     "bugs": {
-        "url": ""
+        "url": "https://github.com/PinchProject/Node-CacheSystem/issues"
     },
     "main": "./lib/index",
     "directories": {
