@@ -1,6 +1,6 @@
-# node-cache-system ![dependencies](https://david-dm.org/PinchProject/Node-CacheSystem.png)
+# Node-CacheSystem
 
-A node.js module to cache data using Redis or in-memory.
+![dependencies](https://david-dm.org/PinchProject/Node-CacheSystem.png)
 
 ## Install
 
@@ -34,6 +34,8 @@ redisCache.get('key', function(err, data) {
 	}
 });
 ```
+
+**Important** : you can use debug option when launching your code with `DEBUG=* node apps.js`, `DEBUG=cache:redis node app.js` or `DEBUG=cache:memory node app.js`
 
 ## API
 
@@ -100,16 +102,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-## Credits
-
-#### Written by
-
-* [Ismael Gorissen](https://github.com/igorissen)
-
-#### Maintained by
-
-* [Ismael Gorissen](https://github.com/igorissen)
 
 ## Change log
 
